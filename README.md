@@ -2,15 +2,17 @@
 
 ## Functionality
 
-> Machine learning model for predicting optimal velocity to avoid collision
+> Machine learning model for predicting optimal velocity to avoid collision.
 
 > ML model deployed at server https://alertme123.herokuapp.com/api 
 
-> Android App (AlertMe) providing functionality: notification when in high danger zone,demarcating areas on map accoring to accidents  data , performing a HTTP POST request to the server to make predictions
+> Android App (AlertMe) providing functionality: notification when in high danger zone,demarcating areas on map accoring to accidents  data , performing a HTTP POST request to the server to make predictions.
 
 > An alternative mathematical model taking into consideration distance vectors , velocity vectors and their dot products with GUI simulation using tkinter and matplotlib. 
 
 > Adaptive headlight model simulated using PyGame. 
+
+> You can check the pdfs included for complete details.
 
 ### TECH STACK USED
 <ul>
