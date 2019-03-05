@@ -8,7 +8,7 @@
 
 > Android App (AlertMe) providing functionality: notification when in high danger zone,demarcating areas on map accoring to accidents  data , performing a HTTP POST request to the server to make predictions.
 
-> An alternative mathematical model taking into consideration distance vectors , velocity vectors and their dot products with GUI simulation using tkinter and matplotlib. 
+> An alternative mathematical model for avoiding collisions by taking into consideration distance vectors , velocity vectors and their dot products . A GUI simulation was made for the same using using tkinter and matplotlib. 
 
 > Adaptive headlight model simulated using PyGame. 
 
