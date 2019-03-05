@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Dashboard"
+    android:background="#d3d3d3"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_dashboard">
+
+    <View
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+<TextView
+    android:id="@+id/prediction"
+    android:fontFamily="sans-serif-condensed"
+    android:background="#000000"
+    android:textColor="#ffffff"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_gravity="center"
+    android:text="Predictions"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <View
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="0dp">
+
+               <TextView
+                   android:textColor="#ffffff"
+                   android:text="Angle"
+                   android:fontFamily="sans-serif-condensed"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+
+           </LinearLayout>
+            <View
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/leftSpeed"
+                    android:textColor="#ffffff"
+                    android:text="Speed"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="#ffffff"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:textColor="#ffffff"
+                    android:text="Direction"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <View
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/rightSpeed"
+                    android:textColor="#ffffff"
+                    android:text="Speed"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:background="#ffffff"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:textColor="#ffffff"
+                    android:text="Net Speed"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/netSpeed"
+                    android:textColor="#ffffff"
+                    android:text="Speed"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="4"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+</LinearLayout>
+
+</LinearLayout>

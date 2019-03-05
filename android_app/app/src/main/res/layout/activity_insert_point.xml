@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".InsertPoint">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="Enter Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etLatIn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Enter Latitude"
+            android:inputType="textPersonName"
+            android:translationY="10dp"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etLonIn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Enter Longitude"
+            android:inputType="textPersonName"
+            android:translationY="10dp"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/input_layout_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etPorbIn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Enter Probability"
+            android:inputType="textPersonName"
+            android:translationY="10dp"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnAddCoord"
+        android:text="Add Coordinate"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnAddMyCoord"
+        android:text="Add My Current Coordinate"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnsee"
+        android:text="See on Map"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

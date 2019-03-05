@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GetPostReqData">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="Enter Values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V1 Pos Y "
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V2 Pos Y"
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V3 Pos Y"
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V1 Velocity X"
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V1 Velocity Y"
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V2 Velocity X"
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V2 Velocity Y"
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V3 Velocity X"
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/et9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="V3 Velocity Y"
+        android:inputType="textPersonName"
+        android:translationY="10dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BDBDBD"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnaddJSON"
+        android:text="Find predicted velocity"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
